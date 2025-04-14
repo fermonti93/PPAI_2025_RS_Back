@@ -31,3 +31,6 @@ Entity (o Model): Una entidad representa una tabla
 almacenada en una base de datos. Cada instancia de una
 entidad representa una fila en la tabla. Cada clase de
 entidad debe estar marcada con la anotación @Entity
+
+#### 3. **Arquitectura**
+se utilisara la rama main como produccion y se aran las pruebas y verciones inestables a aprtir de la rama prototipo
