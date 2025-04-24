@@ -12,8 +12,14 @@ import ppa.example.RS.repository.EventoSismicoRepository;
 public class EventoSismicoService {
 @Autowired
     private EventoSismicoRepository eventoSismicoRepository;
-
+    
+    // listado de todos los eventos sismicos
     public List<EventoSismico> findAll() {
         return eventoSismicoRepository.findAll();
+    }
+    // crear evento sismico
+    public EventoSismico registrarSismo( EventoSismico eventoSismico ){
+		return eventoSismicoRepository.save(eventoSismico);
+
     }
 }
