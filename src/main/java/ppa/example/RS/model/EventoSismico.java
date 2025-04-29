@@ -19,6 +19,7 @@ public class EventoSismico {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     
     private LocalDateTime fechaHoraFin;
     private LocalDateTime fechaHoraOcurrencia;
@@ -42,5 +43,6 @@ public class EventoSismico {
         this.valorMagnitud = valorMagnitud;
     }
 
-
+    public EventoSismico() {
+    }
 }
