@@ -1,4 +1,4 @@
-package ppa.example.RS.Service;
+package ppa.example.RS.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package ppa.example.RS.Service;
+package ppa.example.RS.service;
 
 import java.util.List;
 

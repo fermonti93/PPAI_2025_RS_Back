@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ppa.example.RS.Service.EstadoSismoService;
 import ppa.example.RS.model.EstadoSismo;
+import ppa.example.RS.service.EstadoSismoService;
 
 @RestController
 @RequestMapping("/estado")
