@@ -29,7 +29,6 @@ public class EventoSismico {
     private double longitudHipocentro;
     private int valorMagnitud;
 
-
     //constructor del evento
     public EventoSismico(LocalDateTime fechaHoraFin, LocalDateTime fechaHoraOcurrencia, double latitudEpicentro,
     double latitudHipocetro, double longitudEpicentro, double longitudHipocentro,
